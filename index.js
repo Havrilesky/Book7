@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 
-var ws = require('./ws')
+var ws = require('ws')
 var mongoose = require('mongoose');
 var ObjectId = require('mongoose').Types.ObjectId;
 require('mongoose').set('debug', true);
