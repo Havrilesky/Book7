@@ -2,18 +2,6 @@ const locationsList = {
 	"Oldsea": {
 		"Lat": 48,
 		"Lon": 2
-	},
-	"Quito": {
-		"Lat": -0.18,
-		"Lon": -78
-	},
-	"Reykjavik": {
-		"Lat": 64,
-		"Lon": -21
-	},
-	"Glendale": {
-		"Lat": 34,
-		"Lon": -118
 	}
 };
 const authorsList = {
