@@ -189,8 +189,9 @@ function populateSelect(selector, options, type) {
 
 
 async function startSetUp() {
+	console.log('in startSetUp() ...')
 	//set up connection to Web Socket
-	theSock = await new WebSocket('ws://ec2-13-57-255-189.us-west-1.compute.amazonaws.com:8090');
+	theSock = await new WebSocket('ws://ec2-54-193-45-41.us-west-1.compute.amazonaws.com:8090');
 	theSock.onopen = function () {
 		console.log('websocket is connected ...')
 	}
